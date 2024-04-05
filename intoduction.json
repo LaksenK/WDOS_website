@@ -1,0 +1,76 @@
+{
+    "main": {
+        "Intro": "Introduction to Sri Lankan Wildlife",
+        "Intro_Description": "Different wildlife locations you can find in Sri Lanka."
+    },
+    "park1": {
+        "name": "Wasgamuwa National Park",
+        "description": "Wasgamuwa National Park is a natural park in Sri Lanka situated in the Matale and Polonnaruwa Districts. It was declared to protect and to make a refuge for the displaced wild animals during the Mahaweli Development Project in 1984 and is one of the four National Parks designated under the Project.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.3444114455533!2d80.91819877448837!3d7.753247207653572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afb52570f648bc9%3A0xa4d95d7cf2f31436!2sWasgamuwa%20National%20Park!5e0!3m2!1sen!2slk!4v1705320966827!5m2!1sen!2slk",
+        "images": [
+            "img/wasgamuwa01.jpg",
+            "img/inora-travel-lanka-wasgamuwa-national-park-1.jpg",
+            "img/18.jpg",
+            "img/bundala-national-park-3.jpg"
+        ]
+    },
+    "park2": {
+        "name": "Kaudulla National Park",
+        "description": "Kaudulla National Park is a national park on the island of Sri Lanka located 197 kilometres away from the largest city, Colombo. It was designated a national park on April 1, 2002, becoming the 15th such area on the island.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.9092389635484!2d80.88327927449112!3d8.110723802687618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afb61f06b945489%3A0x745a344d553516b!2sKaudulla%20National%20Park!5e0!3m2!1sen!2slk!4v1705321560714!5m2!1sen!2slk",
+        "images": [
+            "img/caption.jpg",
+            "img/minneriya-safari-18.jpg",
+            "img/72.jpg",
+            "img/80598.jpg"
+        ]
+    },
+    "park3": {
+        "name": "Bundala National Park",
+        "description": "Bundala National Park is an internationally important wintering ground for migratory water birds in Sri Lanka. Bundala harbors 197 species of birds, the highlight being the greater flamingo, which migrate in large flocks.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15866.02605766196!2d81.1885525894712!3d6.196703483114913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae69842ecb214eb%3A0x145a2d402f36beb0!2sBundala%20National%20Park!5e0!3m2!1sen!2slk!4v1705325451802!5m2!1sen!2slk",
+        "images": [
+            "img/75.jpg",
+            "img/4635_1024x1024_2013-07-16-20-32-20-870x480-1.jpg",
+            "img/5d92c58f2c7ffe09ed4d5d14w800.jpg",
+            "img/^68578F272DF18269049F600318002F2EF7D302DEC3A4772B2B^pimgpsh_fullsize_distr.jpg"
+        ]
+    },
+    "park4": {
+        "name": "Kumana National Park",
+        "description": "Kumana National Park in Sri Lanka is renowned for its avifauna, particularly its large flocks of migratory waterfowl and wading birds. The park is 391 kilometres southeast of Colombo on Sri Lanka's southeastern coast. Kumana is contiguous with Yala National Park.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126834.97086213436!2d81.5168178972656!3d6.572959800000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae5c8b55f7156a3%3A0xce605bccbb80201a!2sKumana%20National%20Park!5e0!3m2!1sen!2slk!4v1705325971675!5m2!1sen!2slk",
+        "images": [
+            "img/VW-16.jpg",
+            "img/IMG_0415.JPG",
+            "img/sri-lankan-leopard-panthera-paradus-kotiya.jpg",
+            "img/47.jpg"
+        ]
+    },
+    "table": [
+        {
+            "nameofpark": "Wasgamuwa National Park",
+            "area": "393.2",
+            "animals": "Purple-faced Langur and Toque Macaque,Water Buffalo ,Sri Lankan Axis Deer,Sri Lanka Leopard and Sloth Bear",
+            "image": "img/wasgamuwa01.jpg"
+        },
+        {
+            "nameofpark": "Kaudulla National Park",
+            "area": "69",
+            "animals": "elephants, sambar deer, Sri Lankan axis deer, chevrotain, wild boar, Asian spoonbill, grey-headed fish eagle, painted stork and openbill stork",
+            "image": "img/18.jpg"
+        },
+        {
+            "nameofpark": "Bundala National Park",
+            "area": "33.39",
+            "animals": "spotting wild boar, porcupine,diverse range of colorful bird species of up to 10,000 migratory",
+            "image": "img/75.jpg"
+        },
+        {
+            "nameofpark": "Kumana National Park",
+            "area": "356.6",
+            "animals": "Black-naped monarch,Crested serpent eagle,Purple heron,Sri Lankan Leopard,Stork-billed kingfisher,Black-headed ibis,Spotted deer,Asian openbill stork",
+            "image": "img/IMG_0415.JPG"
+        }
+    ]
+}

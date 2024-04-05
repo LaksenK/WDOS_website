@@ -1,0 +1,52 @@
+{
+    "main": {
+        "Intro": "Indegenous Animals in Sri Lanka",
+        "Intro_Description": "Indigenous animals you can find in Sri Lanka.",
+        "IntroP":"Explore the most famous National Parks in Sri Lanka",
+        "IntroP2":"Indegenous animals in Sri Lanka"
+    },
+    "animals": [
+        {
+            "name": "Sri Lankan Jungle Fowl",
+            "sname":"(Gallus Lafayettii)",
+            "description": "The Sri Lankan junglefowl, also known as the Ceylon junglefowl or Lafayette's junglefowl, is a member of the Galliformes bird order which is endemic to Sri Lanka, where it is the national bird. It is closely related to the red junglefowl, the wild junglefowl from which the chicken was domesticated.",
+            "image": "img/5d92c58f2c7ffe09ed4d5d14w800.jpg"
+        },
+        {
+            "name": "Sri Lankan Leopard",
+            "sname":"(Panthera Pardus Kotiya)",
+            "description": "The Sri Lankan leopard is a leopard subspecies native to Sri Lanka. It was first described in 1956 by Sri Lankan zoologist Paules Edward Pieris Deraniyagala.",
+            "image": "img/A88J5058-Sloth-bear-Wilpattu-2-1.jpg"
+        },
+        {
+            "name": "Sri Lankan Sloth Bear",
+            "sname":"(Melursus Ursinus Inornatus)",
+            "description": "The Sri Lankan sloth bear is a subspecies of the sloth bear which is found mainly in lowland dry forests in the island of Sri Lanka.",
+            "image": "img/A88J5058-Sloth-bear-Wilpattu-2-1.jpg"
+        },
+        {
+            "name": "Crimson-Backed Flameback",
+            "sname":"(Chrysocolaptes Stricklandi)",
+            "description": "The crimson-backed flameback or greater Sri Lanka flameback is a species of bird in the woodpecker family Picidae that is endemic to Sri Lanka. The crimson-backed flameback and the greater flameback were both formerly considered as subspecies of the buff-spotted flameback.",
+            "image": "img/7750116.jpg"
+        },
+        {
+            "name": "Red Slender Loris",
+            "sname":"(Loris Tardigradus)",
+            "description": "The red slender loris is a small, nocturnal strepsirrhine primate native to the rainforests of Sri Lanka. This is No. 6 of the 10 focal species and No. 22 of the 100 EDGE mammal species worldwide considered the most evolutionarily distinct and globally endangered. Two subspecies have been identified, L. t.",
+            "image": "img/red-slender-loris04.jpg"
+        },
+        {
+            "name": "Orange-Billed Babbler",
+            "sname":"(Turdoides Rufescens)",
+            "description": "The orange-billed babbler, also known as Ceylon rufous babbler or Sri Lankan rufous babbler, is a member of the family Leiothrichidae. The orange-billed babbler is a resident breeding bird endemic to Sri Lanka. In the past, it was considered to be a race of jungle babbler, Argya striata.",
+            "image": "img/1800.jpeg"
+        },
+        {
+            "name": "Sri Lankan Blue Magpie",
+            "sname":"(Urocissa Ornata)",
+            "description": "The Sri Lanka blue magpie or Ceylon magpie is a brightly coloured member of the family Corvidae, found exclusively in Sri Lanka. This species is adapted to hunting in the dense canopy, where it is highly active and nimble. Its flight is rather weak, though, and is rarely used to cover great distances.",
+            "image": "img/1800(1).jpeg"
+        }
+    ]
+}

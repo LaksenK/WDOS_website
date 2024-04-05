@@ -1,0 +1,49 @@
+{
+    "main": {
+        "Intro": "Department of Wildlife Conservation.",
+        "Introp": "Introduction of the Department and Protectred areas.",
+        "Intro_Description": "The Department of Wildlife Conservation has been entrusted with the responsibility of preserving eco system endowed with various plants and animal species which has inherited the country with enormous bio-diversity. The main function of the Department of Wildlife Conservation established in 1949 is the conservation of wildlife resources in Sri Lanka. Accordingly, the sources of water feeding all the main revivers in Sri Lanka and catchment areas of 40 major reservoirs providing water for agriculture and hydro-power generation are protected within this wildlife reservation network which exceed 13% of the total land area of the island. The responsibility of managing this wildlife reservation network is solely falling upon the Department of Wildlife Conservation. This network consists of reservations declared under various reservation levels.",
+        "Introp1": "Protected areas by the Department.",
+        "Introp2": "National Parks",
+        "Intro_Img": "img/cropped-Web-Banner-Quarter-Size.png"
+    },
+    "protectedareas": [
+        {
+            "name": "Wilpattuwa",
+            "image": "img/wilpattu-mobile.jpg"
+        },
+        {
+            "name": "Gal Oya",
+            "image": "img/wildlife-img-2.jpg"
+        },
+        {
+            "name": "Udawalawa",
+            "image": "img/udawal2.jpg"
+        },
+        {
+            "name": " Maduruoya",
+            "image": "img/unnamed.jpg"
+        },
+        {
+            "name": "Wasgamuwa",
+            "image": "img/YalaSriLankaSafariepb0310.webp"
+        },
+        {
+            "name": " Hortain Plains",
+            "image": "img/Sambar-VW-2-2.jpg"
+        },
+        {
+            "name": "Hikkaduwa",
+            "image": "img/what-to-do-in-hikkaduwa-sea-turtle-hatchery-1024x768.jpg"
+        },
+        {
+            "name": "Kumana",
+            "image": "img/kumana_bird_sactuary1.jpg"
+        }
+    ],
+    "maps": {
+        "pamap": "img/dptWildLifeMapwebste2022-768x1086.jpg",
+        "title": "Department Location",
+        "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.9457472321733!2d79.91980569999997!3d6.897092700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae250aa85489b1f%3A0xd8773339b6b43dbb!2sDepartment%20of%20Wildlife%20Conservation!5e0!3m2!1sen!2slk!4v1705315354703!5m2!1sen!2slk"
+    }
+}

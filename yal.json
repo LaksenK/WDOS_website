@@ -1,0 +1,28 @@
+{
+    "topic": "Yala National park",
+    "mainimg": "img/banner-image.jpg",
+    "subtopics": [
+        {
+            "topic": "Welcome  ,",
+            "paragraph": "Welcome to Yala National Park, a jewel in the crown of Sri Lanka's natural wonders. Spanning 979 square kilometers in the island's southeast, Yala is a biodiverse haven where nature unfolds in all its untamed splendor. As the country's second-largest national park, Yala captivates visitors with its diverse landscapes, ranging from dense jungles to expansive grasslands and pristine coastal areas. Renowned for its rich wildlife, Yala is home to a thriving population of Sri Lankan elephants, elusive leopards, sloth bears, sambar deer, and an impressive variety of bird species. Embark on an unforgettable safari adventure through Yala's five blocks, each offering a unique glimpse into the enchanting world of the wild. Whether you're a wildlife enthusiast, a photographer seeking that perfect shot, or simply someone yearning for a connection with nature, Yala National Park promises an immersive and awe-inspiring experience amidst the wonders of Sri Lanka's diverse ecosystems. Join us in exploring the magic of Yala, where every moment is a celebration of the beauty and vitality of our planet's incredible biodiversity.",
+            "officialwebsite": {
+                "paragraph": "Click here to Visit official website",
+                "link": "https://www.yalasrilanka.lk/"
+            }
+        },
+        {
+            "topic": "Wildlife in Yala National Park",
+            "paragraph": "Immerse yourself in the captivating wildlife sanctuary of Yala National Park, a biodiversity hotspot that beckons nature enthusiasts and adventure seekers alike. Yala's vast expanse encompasses a tapestry of ecosystems, from lush forests to open grasslands, providing a thriving habitat for a spectacular array of wildlife. Traverse the landscape in search of the iconic Sri Lankan elephants, witness the stealth and grace of leopards, and marvel at the playful antics of spotted deer and wild boars. Yala's rich avian diversity adds melody to the natural symphony, with vibrant Indian rollers and majestic crested serpent eagles soaring above. As you embark on an exhilarating safari through Yala's five blocks, each turn unveils a new chapter in the untamed narrative of the park. The blend of diverse landscapes and the enchanting presence of its inhabitants make Yala National Park a sanctuary where the wonders of the wild come to life, inviting you to witness and appreciate the delicate balance of nature in all its glory.",
+            "image": "img/01.jpg"
+        },
+        {
+            "topic": "Activities in Yala",
+            "paragraph": "Discover a tapestry of thrilling activities that await you in Yala National Park, promising an unforgettable adventure amidst Sri Lanka's natural wonders. Embark on exhilarating wildlife safaris through the park's diverse landscapes, offering the chance to encounter the majestic Sri Lankan elephants, elusive leopards, and a myriad of other fascinating creatures in their natural habitat. Engage in birdwatching excursions, where over 200 avian species create a vibrant spectacle against the backdrop of Yala's scenic beauty. For a unique perspective, explore the park's coastal areas, where pristine beaches meet the untamed wilderness. Capture the essence of the wild with photography safaris, immortalizing the magic of Yala through your lens. The park also offers camping experiences, allowing you to immerse yourself in the sights and sounds of the nocturnal jungle. Yala National Park beckons adventurers and nature enthusiasts to partake in a range of activities, each unveiling a different facet of this ecological masterpiece.",
+            "officialwebsite": {
+                "paragraph": "Click here to Plan your trip",
+                "link": "https://www.yalasrilanka.lk/plan-your-trip.html"
+            },
+            "image": "img/yala-day-tours-in-sri-lanka.jpg"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "topic": "Wilpttu National park",
+    "mainimg": "img/sri-lankan-wild-sloth-bear.jpg",
+    "subtopics": [
+        {
+            "topic": "Welcome  ,",
+            "paragraph": "Embark on a journey into the heart of natural splendor at Wilpattu National Park, a pristine wilderness sanctuary nestled in the northwestern part of Sri Lanka. As the largest national park in the country, Wilpattu is a mosaic of ecosystems, comprising dense forests, shimmering lakes, and expansive grasslands. Renowned for its untamed beauty and rich biodiversity, the park is a haven for wildlife enthusiasts and nature lovers. Here, the elusive leopard prowls freely, sharing its habitat with a diverse range of species, including elephants, sloth bears, spotted deer, and a myriad of bird species. Wilpattu's scenic lakes add a tranquil charm, providing a picturesque backdrop for wildlife sightings. Safari excursions through its winding trails offer a captivating exploration of this natural haven, where each turn reveals a new chapter in the enchanting story of Sri Lanka's wilderness. With its untouched landscapes and abundant wildlife, Wilpattu National Park beckons visitors to immerse themselves in the raw beauty of nature and create lasting memories amidst the untamed allure of the wild.",
+            "officialwebsite": {
+                "paragraph": "Click here to Visit official website",
+                "link": "https://www.dwc.gov.lk/wnp/"
+            }
+        },
+        {
+            "topic": "Wildlife in Wilpattu National Park",
+            "paragraph": "Experience the untamed beauty of Wilpattu National Park, a wildlife sanctuary that unfolds like a living tapestry in the northwestern reaches of Sri Lanka. As the largest national park in the country, Wilpattu is a testament to nature's grandeur, with its diverse habitats ranging from dense forests to serene lakes and expansive grasslands. The park is renowned for its resident leopard population, offering a rare opportunity to witness these elusive predators in their natural habitat. Wilpattu's landscapes are also home to a rich array of wildlife, including majestic elephants, sloth bears, spotted deer, and a symphony of birdlife that paints the skies with vibrant hues. Safari excursions through the park's winding trails unveil the secrets of this ecological haven, where the thrill of encountering wild inhabitants is surpassed only by the breathtaking scenery. Wilpattu National Park beckons adventurers and wildlife enthusiasts to embark on an unforgettable journey, immersing themselves in the raw and untouched beauty of Sri Lanka's natural heritage.",
+            "image": "img/01(1).jpg"
+        },
+        {
+            "topic": "Activities in Wilpattu",
+            "paragraph": "Embark on a captivating adventure with an array of activities awaiting you in Wilpattu National Park. Discover the untamed beauty of this vast wilderness through thrilling safari excursions, offering the chance to witness the park's iconic residents, including the elusive leopard, majestic elephants, and a diverse range of wildlife, all set against the backdrop of varied ecosystems. Engage in birdwatching to capture the vibrant avian life that graces the skies and adds a melodic soundtrack to your exploration. For a truly immersive experience, consider camping within the park's serene surroundings, allowing the night to unfold with the sounds of nature as your companion. Nature walks along the park's trails provide an up-close encounter with its diverse flora and fauna, offering a deeper understanding of Wilpattu's intricate ecological balance. Whether you're a wildlife enthusiast, a photography enthusiast, or simply seeking a connection with nature, Wilpattu National Park invites you to partake in a range of activities that promise an unforgettable journey into the heart of Sri Lanka's wild beauty.",
+            "officialwebsite": {
+                "paragraph": "Click here to Plan your trip",
+                "link": "https://dwc.lankagate.gov.lk/homeAction.action"
+            },
+            "image": "img/01(2).jpg"
+        }
+    ]
+}

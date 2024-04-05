@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main nav {
+    background-color: #a8d87e41;
+}
+
+main nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+main nav li {
+    float: left;
+}
+
+main nav a {
+    display: block;
+    color: rgb(37, 35, 35);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+main nav a:hover {
+    background-color: #96d44fc9;
+    color: black;
+    font-weight: bold;
+}
+
+.parkintro {
+    text-align: center;
+    background-color: rgba(144, 199, 137, 0.671);
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+main {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+section {
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+section p::first-letter {
+    font-size: 1.75em;
+
+}
+
+.mainimg {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin: 5px;
+
+}
+
+.mainimg:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+h1 {
+    animation: colorchange 3s infinite alternate;
+
+}
+
+@keyframes colorchange {
+    from {
+        color: hsl(74, 100%, 25%);
+    }
+
+    to {
+        color: whitesmoke;
+    }
+}
+a{
+    color: hsl(0, 0%, 20%);;
+}
+@media only screen and(max-width:500px){
+    section{
+        font-size: 0.75em;
+    }
+
+}

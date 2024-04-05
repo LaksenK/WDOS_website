@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main nav {
+    background-color: #a8d87e41;
+}
+
+main nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+main nav li {
+    float: left;
+}
+
+main nav a {
+    display: block;
+    color: rgb(37, 35, 35);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+main nav a:hover {
+    background-color: #96d44fc9;
+    color: black;
+    font-weight: bold;
+}
+
+.parkintro {
+    text-align: center;
+    background-color: rgba(144, 199, 137, 0.671);
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+main {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+section {
+    text-align: justify;
+    font-size: 1.25em;
+}
+
+section p::first-letter {
+    font-size: 1.75em;
+
+}
+
+.mainimg {
+    width: 100%;
+    height: 550px;
+    border-radius: 15px;
+    margin: 5px;
+
+}
+
+#img6 {
+    height: auto;
+}
+#img5 {
+    height: auto;
+}
+#img4 {
+    height: auto;
+}
+
+h1 {
+    animation: colorchange 3s infinite alternate;
+
+}
+
+
+.mainimg:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+@keyframes colorchange {
+    from {
+        color: hsl(74, 100%, 25%);
+    }
+
+    to {
+        color: whitesmoke;
+    }
+}
+h1 {
+    animation: colorchange 3s infinite alternate;
+
+}
+
+img {
+    filter: grayscale(0);
+    transition: filter 0.5s ease-in-out;
+}
+
+img:hover {
+    filter: grayscale(100%);
+}
+
+a {
+    color: hsl(0, 0%, 20%);
+    ;
+}
