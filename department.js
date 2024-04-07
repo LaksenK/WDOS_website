@@ -2,7 +2,7 @@ fetch("department.json")
     .then((response) => response.json())
     .then((data) => {
         //local storage
-        localStorage.setItem("departmentData", JSON.stringify(data));
+        if (!localStorage.getItem("departmentData")) { localStorage.setItem("departmentData", JSON.stringify(data)); }
     })
     .catch((error) => {
         console.error("Error", error);

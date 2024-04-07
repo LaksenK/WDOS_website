@@ -906,3 +906,34 @@ footer {
         font-size: 1.25em;
     }
 }
+/* //newsletter */
+.newsletter {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .newsletter h2 {
+    margin-bottom: 10px;
+  }
+  
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #subB {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    background-color: #1e8a6d;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #subB:hover {
+    background-color: #1a6338d6;
+  }

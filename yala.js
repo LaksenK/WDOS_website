@@ -2,7 +2,7 @@ fetch("yal.json")
     .then((response) => response.json())
     .then((data) => {
         //local storage
-        localStorage.setItem("yalaData", JSON.stringify(data));
+        if (!localStorage.getItem("yalaData")) { localStorage.setItem("yalaData", JSON.stringify(data)); }
     })
     .catch((error) => {
         console.error("Error", error);

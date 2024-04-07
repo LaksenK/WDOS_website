@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url(img/desktop-wallpaper-beautiful-animal-for-pc-animals.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  header {
+    background-color: #bebe3ab1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .box {
+    width: calc(33.33% - 20px); /* Adjust the width as per your requirement */
+    background-color: #e6e4aea6;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.25rem;
+  }
+  
+  .box h2 {
+    margin-bottom: 10px;
+  }
+  
+  .edit-button {
+    padding: 10px 20px;
+    background-color: #978921;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  
+  .edit-button:hover {
+    background-color: #a3ab4c;
+  }
+  

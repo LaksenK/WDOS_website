@@ -5,7 +5,7 @@ fetch("index.json")
     .then((data) => {
         //local storage
         // document.getElementById("maini").innerHTML= data.main.Intro;
-        localStorage.setItem("homeData", JSON.stringify(data));
+        if (!localStorage.getItem("homeData")) { localStorage.setItem("homeData", JSON.stringify(data)); }
     })
     .catch((error) => {
         console.error("Error", error);
@@ -51,3 +51,28 @@ data.section3.examples.forEach((placeName) => {
 });
 
 
+document.addEventListener('DOMContentLoaded', function () {
+    const subscribeForm = document.getElementById("subscribeForm");
+
+    subscribeForm.addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        const emailInput = document.getElementById('email').value;
+
+        let subscribedEmails = localStorage.getItem('subscribedEmails');
+        if (!subscribedEmails) {
+            subscribedEmails = [];
+        } else {
+            subscribedEmails = JSON.parse(subscribedEmails);
+        }
+
+        subscribedEmails.push(emailInput);
+        localStorage.setItem('subscribedEmails', JSON.stringify(subscribedEmails));
+
+        alert("Thank you for subscribing to our newsletter!");
+
+        // Clear the input field after subscribing
+        document.getElementById('email').value = "";
+    });
+
+});

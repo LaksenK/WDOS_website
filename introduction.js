@@ -4,7 +4,7 @@ fetch("intoduction.json")
     .then((data) => {
         //local storage
         // document.getElementById("maini").innerHTML= data.main.Intro;
-        localStorage.setItem("introductionData", JSON.stringify(data));
+        if (!localStorage.getItem("introductionData")) { localStorage.setItem("introductionData", JSON.stringify(data)); }
     })
     .catch((error) => {
         console.error("Error", error);
