@@ -17,8 +17,14 @@ document.addEventListener('DOMContentLoaded', function () {
                 );
                 if (user) {
                     alert('Login successful!');
-                    localStorage.setItem("currentUser",JSON.stringify(user))
-                    window.location.href = 'dashboard.html'; // Redirect to dashboard page
+                    localStorage.setItem("currentUser", JSON.stringify(user))
+                    if (user.role == "admin") {
+                        window.location.href = 'dashboard.html'; // Redirect to dashboard page
+                    }
+                    else {
+                        window.location.href = "index.html";
+                    }
+
                 } else {
                     alert('Invalid username or password');
                 }
@@ -28,4 +34,3 @@ document.addEventListener('DOMContentLoaded', function () {
             });
     });
 });
-

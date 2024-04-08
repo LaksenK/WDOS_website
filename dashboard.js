@@ -72,3 +72,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
+function list_generate(array){
+    let code='';
+    let array_size=array.length;
+    for (let i=0; i<array_size; i++){
+code+=`<li>${array[i]}</li>`;
+    }
+    return code;
+}
+const email=JSON.parse(localStorage.getItem("subscribedEmails"))
+document.getElementById("news-letter").innerHTML=list_generate(email);
+
