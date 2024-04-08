@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         alert("Thank you for subscribing to our newsletter!");
 
-        // Clear the input field after subscribing
+       
         document.getElementById('email').value = "";
     });
 

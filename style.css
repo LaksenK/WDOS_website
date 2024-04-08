@@ -678,7 +678,7 @@ footer {
     margin-top: 25px;
     display: flex;
     flex-wrap: wrap;
- align-items: center;
+    align-items: center;
 }
 
 .plac {
@@ -788,6 +788,7 @@ footer {
         font-size: 0.75em;
 
     }
+
     .threat {
         font-size: 0.75em;
     }
@@ -906,25 +907,26 @@ footer {
         font-size: 1.25em;
     }
 }
+
 /* //newsletter */
 .newsletter {
     max-width: 400px;
     margin: 0 auto;
-  }
-  
-  .newsletter h2 {
+}
+
+.newsletter h2 {
     margin-bottom: 10px;
-  }
-  
-  input[type="email"] {
+}
+
+input[type="email"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-  }
-  
-  #subB {
+}
+
+#subB {
     width: 50%;
     padding: 10px;
     border: none;
@@ -932,18 +934,21 @@ footer {
     color: #fff;
     border-radius: 5px;
     cursor: pointer;
-  }
-  
-  #subB:hover {
+}
+
+#subB:hover {
     background-color: #1a6338d6;
-  }
-  .headintro{
+}
+
+.headintro {
     position: relative;
-  }
-  .headintro a {
+}
+
+.headintro a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50;
+    /* Green */
     color: white;
     text-align: center;
     text-decoration: none;
@@ -952,8 +957,9 @@ footer {
     position: absolute;
     top: 10px;
     right: 10px;
-  }
-  .headintro a:hover{
+}
+
+.headintro a:hover {
     background-color: #376139d1;
     font-size: large;
-  }
+}

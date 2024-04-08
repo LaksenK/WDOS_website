@@ -41,8 +41,6 @@ document.addEventListener('DOMContentLoaded', function () {
         localStorage.setItem('subscribedEmails', JSON.stringify(subscribedEmails));
 
         alert("Thank you for subscribing to our newsletter!");
-
-        // Clear the input field after subscribing
         document.getElementById('email').value = "";
     });
 

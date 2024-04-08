@@ -19,10 +19,10 @@ document.addEventListener('DOMContentLoaded', function () {
                     alert('Login successful!');
                     localStorage.setItem("currentUser", JSON.stringify(user))
                     if (user.role == "admin") {
-                        window.location.href = 'dashboard.html'; // Redirect to dashboard page
+                        window.location.href = 'dashboard.html'; //  to dashboard page
                     }
                     else {
-                        window.location.href = "index.html";
+                        window.location.href = "index.html";// to Home
                     }
 
                 } else {

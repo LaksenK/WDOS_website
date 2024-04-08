@@ -23,6 +23,7 @@ document.getElementById("area5").innerHTML = data.protectedareas[4].name;
 document.getElementById("area6").innerHTML = data.protectedareas[5].name;
 document.getElementById("area7").innerHTML = data.protectedareas[6].name;
 document.getElementById("area8").innerHTML = data.protectedareas[7].name;
+
 document.addEventListener('DOMContentLoaded', function () {
     const subscribeForm = document.getElementById("subscribeForm");
 
@@ -43,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         alert("Thank you for subscribing to our newsletter!");
 
-        // Clear the input field after subscribing
+        
         document.getElementById('email').value = "";
     });
 
