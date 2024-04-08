@@ -25,11 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Retrieve data from local storage and populate the textarea
     const textarea = document.getElementById("editor-textarea");
     const currentContent=localStorage.getItem(dataKey);
-    console.log(currentContent);
-    // const saveButton = document.getElementById("save-button");
-    // saveButton.addEventListener("click",function(){
-       console.log(dataKey);
-    // })
+   
 });
 ///
 document.addEventListener('DOMContentLoaded', function () {

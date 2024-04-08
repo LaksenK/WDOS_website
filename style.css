@@ -937,3 +937,23 @@ footer {
   #subB:hover {
     background-color: #1a6338d6;
   }
+  .headintro{
+    position: relative;
+  }
+  .headintro a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .headintro a:hover{
+    background-color: #376139d1;
+    font-size: large;
+  }

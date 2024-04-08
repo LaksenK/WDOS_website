@@ -1,19 +1,37 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background: url(img/desktop-wallpaper-beautiful-animal-for-pc-animals.jpg);
+    font-family: Fredoka, sans-serif;
+    background: url(img/pexels-pixabay-45853.jpg) ;
     background-position: center;
     background-size: cover;
   }
   
   header {
-    background-color: #bebe3ab1;
+    background-color: #bebe3aa2;
     color: white;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
     font-size: 1.5rem;
+    text-decoration:underline dotted;
+    position: relative;
   }
-  
+  header a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #a49c58cd; /* Green */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+  }
+  header a:hover{
+    background-color: #616037d1;
+    font-size: large;
+  }
   main {
     display: flex;
     flex-wrap: wrap;
@@ -23,11 +41,11 @@ body {
   
   .box {
     width: calc(33.33% - 20px); /* Adjust the width as per your requirement */
-    background-color: #e6e4aea6;
+    background-color: #e6e4ae59;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
-    border: 1px solid black;
+    box-shadow: 5px 5px 5px ;
     text-align: center;
     justify-content: center;
     font-size: 1.25rem;
@@ -44,10 +62,27 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    font-family: fredoka,sans-serif;
+
   }
   
-  .edit-button:hover {
-    background-color: #a3ab4c;
+  .newsletter {
+    box-shadow: 5px 5px 5px black;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 1000px; /* Adjust width as needed */
+    text-align: center;
+    position: relative;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
   }
   
+  .newsletter h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+ 
