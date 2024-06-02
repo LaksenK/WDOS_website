@@ -1,7 +1,7 @@
-document.addEventListener('DOMContentLoaded', function () {
-    document.getElementById("loginform").addEventListener('submit', function (event) {
+document.addEventListener('DOMContentLoaded', function () { //HTML document has been completely loaded and parsed
+    document.getElementById("loginform").addEventListener('submit', function (event) { //works after form is submitted
         event.preventDefault();
-        fetch('login.json')
+        fetch('login.json')//feching json file
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
@@ -9,15 +9,15 @@ document.addEventListener('DOMContentLoaded', function () {
                 return response.json();
             })
 
-            .then(data => {
+            .then(data => {//get imputs from user
                 const usernameInput = document.getElementById('username').value;
                 const passwordInput = document.getElementById('password').value;
-                var user = data.users.find(
+                var user = data.users.find(//check the validation
                     (users) => users.username === usernameInput && users.password === passwordInput
                 );
                 if (user) {
                     alert('Login successful!');
-                    localStorage.setItem("currentUser", JSON.stringify(user))
+                   // localStorage.setItem("currentUser", JSON.stringify(user))
                     if (user.role == "admin") {
                         window.location.href = 'dashboard.html'; //  to dashboard page
                     }
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
             })
             .catch(error => {
-                console.error('There was a problem with the fetch operation:', error);
+                console.error('There was a problem with the fetch operation:', error);//if there was a error in fetch
             });
     });
 });

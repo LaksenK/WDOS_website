@@ -51,23 +51,23 @@ data.section3.examples.forEach((placeName) => {
 });
 
 
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function () {//html page has been fully loaed
     const subscribeForm = document.getElementById("subscribeForm");
 
-    subscribeForm.addEventListener('submit', function (event) {
+    subscribeForm.addEventListener('submit', function (event) {//when the form is submitted function will execute
         event.preventDefault();
 
         const emailInput = document.getElementById('email').value;
 
-        let subscribedEmails = localStorage.getItem('subscribedEmails');
+        let subscribedEmails = localStorage.getItem('subscribedEmails');//parse email to array
         if (!subscribedEmails) {
             subscribedEmails = [];
         } else {
             subscribedEmails = JSON.parse(subscribedEmails);
         }
 
-        subscribedEmails.push(emailInput);
-        localStorage.setItem('subscribedEmails', JSON.stringify(subscribedEmails));
+        subscribedEmails.push(emailInput);//add value from emailinput
+        localStorage.setItem('subscribedEmails', JSON.stringify(subscribedEmails));//update the array
 
         alert("Thank you for subscribing to our newsletter!");
 
