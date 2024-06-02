@@ -1,4 +1,4 @@
-let content;
+//let content;
 document.addEventListener('DOMContentLoaded', function () {
     const editButtons = document.querySelectorAll('.edit-button');
 
@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 const data = localStorage.getItem(dataKey);
                 if (data) {
                     localStorage.setItem('currentData', data);
-                    content = data;
+                    //content = data;
                     localStorage.setItem("dataKey", dataKey);
 
                     window.open("popup.html", "popup", "width=750,height=650");
